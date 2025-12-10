@@ -141,7 +141,7 @@ Interpretation:
 ```bash
 git clone https://github.com/renecano/grafos-fork-join-visualizer.git
 cd grafos-fork-join-visualizer
-
+``` 
 ## Licence
 Released under the MIT License.
 Free to use for learning, teaching, or creating your own graph/parallelism tools.
