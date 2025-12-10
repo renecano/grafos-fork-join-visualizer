@@ -85,3 +85,64 @@ grafos-fork-join-visualizer/
 ├─ README.md
 ├─ .gitignore
 └─ LICENSE
+
+
+> Folder and package names may differ slightly depending on your setup.
+
+---
+
+## 📥 Graph File Format (`graphs/*.txt`)
+
+Each `.txt` file must contain an **adjacency matrix**.
+
+- **Rows** → source nodes  
+- **Columns** → destination nodes  
+- `1` = edge exists  
+- `0` = no edge  
+
+Example:
+0 1 1 0
+0 0 0 1
+0 0 0 1
+0 0 0 0
+
+
+Interpretation:
+
+- S1 → S2, S3  
+- S2 → S4  
+- S3 → S4  
+
+---
+
+## 🔧 Technologies Used
+
+- **Language:** Java  
+- **UI Framework:** JavaFX  
+- **Paradigm:** Object-Oriented Programming  
+
+### Algorithms / Concepts
+- Directed Acyclic Graphs (DAG)  
+- BFS-style level computation  
+- Topological-like ordering  
+- Fork/Join parallelism  
+- Basic graph validation  
+
+---
+
+## ▶️ How to Run the Project
+
+### Requirements
+- Java JDK 17+  
+- JavaFX SDK configured in your IDE  
+
+### Clone the repo
+
+```bash
+git clone https://github.com/renecano/grafos-fork-join-visualizer.git
+cd grafos-fork-join-visualizer
+
+## Licence
+Released under the MIT License.
+Free to use for learning, teaching, or creating your own graph/parallelism tools.
+
